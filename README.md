@@ -21,6 +21,8 @@ Notes
 
 Memory
 
+
+
 This results in:
 
 Missed bill payments
@@ -36,6 +38,8 @@ Financial waste
 Stress
 
 There is no centralized, automation-driven system built specifically for life obligations.
+
+
 
 💡 Solution
 
@@ -59,6 +63,8 @@ Receive proactive email alerts
 
 LifeLedger acts as a Life Operations Dashboard.
 
+
+
 🧩 Core Features (MVP)
 
 🔐 Secure Authentication (JWT-based)
@@ -77,7 +83,11 @@ LifeLedger acts as a Life Operations Dashboard.
 
 📧 Automated Email Notifications
 
+
+
 🖥 Tech Stack
+
+
 Frontend
 
 Next.js
@@ -87,6 +97,8 @@ React
 Tailwind CSS
 
 Responsive UI
+
+
 
 Backend
 
@@ -100,17 +112,23 @@ JWT Authentication
 
 Cron-based Reminder Scheduler
 
+
+
 Database
 
 PostgreSQL
+
+
 
 Deployment
 
 Frontend → Vercel
 
-Backend → AWS / Render
+Backend → Render
 
 Database → Managed PostgreSQL
+
+
 
 🧱 System Architecture
 
