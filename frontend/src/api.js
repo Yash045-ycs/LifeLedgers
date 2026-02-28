@@ -1,10 +1,10 @@
-const BASE = '/api';
+const BASE = "https://lifeledgers.onrender.com/api";
 
 function getToken() {
   return localStorage.getItem('ll_token');
 }
 
-function headers() {
+function headers() {  
   return {
     'Content-Type': 'application/json',
     ...(getToken() ? { Authorization: `Bearer ${getToken()}` } : {}),
