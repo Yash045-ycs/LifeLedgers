@@ -4,10 +4,7 @@ const { seed } = require('./db/seed');
 
 const app  = express();
 
-app.use(cors({
-  origin: "https://lifeledgers-1.onrender.com",
-  credentials: true
-}));
+app.use(cors());
 
 const PORT = process.env.PORT || 5000;
 
