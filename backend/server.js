@@ -3,6 +3,12 @@ const cors    = require('cors');
 const { seed } = require('./db/seed');
 
 const app  = express();
+
+app.use(cors({
+  origin: "https://your-frontend-url.vercel.app",
+  credentials: true
+}));
+
 const PORT = process.env.PORT || 5000;
 
 // ── Middleware ────────────────────────────────────────────────────
