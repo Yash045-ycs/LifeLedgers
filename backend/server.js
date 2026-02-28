@@ -5,7 +5,7 @@ const { seed } = require('./db/seed');
 const app  = express();
 
 app.use(cors({
-  origin: "https://your-frontend-url.vercel.app",
+  origin: "https://lifeledgers-1.onrender.com",
   credentials: true
 }));
 
